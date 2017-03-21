@@ -2,6 +2,20 @@ import React from 'react'
 import DuckImage from '../assets/Duck.jpg'
 import './HomeView.scss'
 
+/**
+ * TODO
+ * - make "slideshow" that is widespread and has progression bar and auto turns and stops if you hover it?
+ *  - make to recieve image and tittle and make cards to be displayed
+ * - make important links cards with appropriate descriptions and image
+ *  - make component that recieves tittle + description + image and makes link cards
+ * - make workshops horizontal cards
+ *  - make component recieve image and tittle and make cards to be displayed
+ *  - make map to all components and create horizontal list that doesn't show all
+ * - make news horizontal cards (same as workshops)
+ *  - make component recieve image and tittle and make cards to be displayed
+ *  - make map to all components and create horizontal list that doesn't show all
+ */
+
 export const HomeView = () => (
   <div>
     <h4>Welcome!</h4>
